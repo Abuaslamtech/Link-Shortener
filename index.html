@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h2>Link Shortener</h2>
+    </header>
+
+    <main>
+      <section class="tab">
+        <input
+          type="text"
+          name="link"
+          id="link"
+          placeholder="Insert URL here"
+        />
+        <button id="btn">Shorten Link</button>
+      </section>
+
+      <div class="shortenedLink">
+        Shortened URL: <a href=""><span id="shortenedLink"></span> </a>
+      </div>
+      
+    </main>
+    <footer>
+      <p>Developed by Abuaslam for 40 Days - 40 Projects Challenge</p>
+    </footer>
+  </body>
+</html>
